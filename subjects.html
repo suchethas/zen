@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1>Papers</h1>
+
+  <ul class="posts">
+    {% for paper in site.papers %}
+      <li>
+        <a class="post-link" href="{{ paper.url | prepend: site.baseurl }}"> {{ paper.paper }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

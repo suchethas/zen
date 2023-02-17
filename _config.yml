@@ -1,0 +1,23 @@
+title: Suchetha
+description: A personal website for Suchetha
+
+domain: suchethas.github.io     
+# url: suchethas.github.io 
+# baseurl: /iris
+
+collections:
+  papers:
+    output: true
+  topicsgs1:
+    output: true
+  topicsgs2:
+    output: true
+  topicsgs3:
+    output: true
+  topicspsir1:
+    output: true
+  topicspsir2:
+    output: true
+
+
+markdown: kramdown
