@@ -1,8 +1,7 @@
 title: Suchetha
 description: A personal website for Suchetha
 
-# url: suchethas.github.io 
-# baseurl: suchethas.github.io/zen
+baseurl: /zen
 
 collections:
   papers:
